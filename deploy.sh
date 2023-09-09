@@ -4,9 +4,9 @@
 # REPO_URL="https://github.com/exactlyprateek/statoc-react-app.git"
 
 # Update package list and install curl
-sudo apt update && sudo apt install -y curl
+# sudo apt update && sudo apt install -y curl
 
-# sudo apt install nginx
+sudo apt install nginx
 # Install Node.js
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo bash -
 sudo apt-get install -y nodejs
