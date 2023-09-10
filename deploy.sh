@@ -23,10 +23,10 @@ npm install
 # Run the app in production mode
 npm run build
 
-mv build /var/www/html
+sudo mv build /var/www/html
 
-cd build
+cd /var/www/html/build
 
-find . -maxdepth 1 -exec mv {} .. \;
+sudo find . -maxdepth 1 -exec mv {} .. \;
 
 sudo systemctl restart nginx
